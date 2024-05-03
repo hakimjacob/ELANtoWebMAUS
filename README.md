@@ -34,4 +34,7 @@ sessions = {
 
 4. The code will create a directory "split-files" within each session directory specified at the start of the script. It will contain .wav and .csv pairs to be uploaded to WebMAUS.
    
-5. Drag all files in a split-files folder into [WebMAUS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSGeneral) 
+5. Drag all files in a split-files folder into [WebMAUS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSGeneral). Change "Input Encoding" in the Service Options Menu to "IPA (UTF-8)".
+   -Note: you open the "Expert Options" dropdown menu and change "Output Encoding" to "IPA" if you would rather have IPA annotations in the output TextGrids.
+
+6. Once all .wav/.csv pairs have been uploaded, the WebMAUS service should run with no errors (provided the IPA encoding in the script was specified correctly) and output a .zip file of TextGrid files with force-aligned segments for each word in your annotation.
