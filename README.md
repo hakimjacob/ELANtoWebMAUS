@@ -1,4 +1,5 @@
 # ELAN to WebMAUS Converter
+## Created by Blaine Billings and modified by Jacob Hakim
 This simple Python script takes a long, annotated ELAN file and corresponding .wav file (or batch of ELAN/.wav files) and:
 - slices audio into chunks corresponding to each annotation
 - creates a .csv for each annotation in the format required for WebMAUS (with IPA, NOT SAMPA)
